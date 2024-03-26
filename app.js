@@ -4,5 +4,6 @@ bs.watch(['*.*', '*/*/*.*', '*/*.*']).on("change", bs.reload);
 
 // Start a Browsersync proxy
 bs.init({
-    server: "./"
+    server: "./",
+    port: '3001'
 });
